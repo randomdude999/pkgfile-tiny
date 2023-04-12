@@ -87,7 +87,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "pkgfile_ng"
+name = "pkgfile_tiny"
 version = "0.1.0"
 dependencies = [
  "cdb",

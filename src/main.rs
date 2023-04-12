@@ -43,7 +43,7 @@ fn write_db(path: &Path, reponame: &str, cdb: &mut CDBWriter) -> std::io::Result
 }
 
 fn main() -> std::io::Result<()> {
-    let cdb_path = "/var/lib/pkgfile-ng.cdb";
+    let cdb_path = "/var/lib/pkgfile-tiny.cdb";
     let pacman_db_path = Path::new("/var/lib/pacman/sync");
     if let Some(arg) = std::env::args().skip(1).next() {
         // lookup
