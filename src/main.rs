@@ -66,7 +66,7 @@ fn main() -> std::io::Result<()> {
             results.push((firstpart, path));
         }
         for (col1, col2) in results {
-            println!("{}{}{}", col1, " ".repeat(col_width - UnicodeWidthStr::width(col1.as_str())), col2);
+            println!("{}{}   {}", col1, " ".repeat(col_width - UnicodeWidthStr::width(col1.as_str())), col2);
         }
     } else {
         println!("updating database...");
